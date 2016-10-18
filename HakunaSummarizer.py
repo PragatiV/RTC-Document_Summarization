@@ -146,7 +146,7 @@ for i in range(num_iter):
 
 def write(data):
     print('Creating new json file') 
-    name = '/home/pragati/HACK101/flare.json'  # Name of text file coerced with +.txt
+    name = '/home/pragati/Git_Pragati/RTC-Document_Summarization/flare.json'  # Name of text file coerced with +.txt
     with open(name, 'w') as outfile:
         json.dump(data, outfile)
 
@@ -178,7 +178,7 @@ write(jsonObj)
 
 # In[37]:
 
-filename = '/home/pragati/HACK101/index.html'
+filename = '/home/pragati/Git_Pragati/RTC-Document_Summarization/index.html'
 webbrowser.open_new_tab(filename)
 
 
